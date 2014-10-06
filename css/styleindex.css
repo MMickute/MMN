@@ -59,4 +59,14 @@ article {
     background: red;
 }
 
+@media screen and (max-width: 36em) {
+    article {
+    position: absolute;
+    top: 400px;
+    left: 4%;
+   
+}
+
+}
+
 
