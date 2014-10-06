@@ -62,7 +62,7 @@ article {
 @media screen and (max-width: 36em) {
     article {
     position: absolute;
-    top: 400px;
+    top: 250px;
     left: 4%;
    
 }
