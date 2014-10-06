@@ -28,7 +28,18 @@ img {
     height: auto;
 }
 
-.nav {
+ul, ol {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 4px;
+}
+
+
+nav {
     position: absolute;
     top: 200px;
     left: 4%;
@@ -36,11 +47,12 @@ img {
     background: blue;
 }
 
-.text {
+article {
     position: absolute;
     top: 200px;
     left: 30%;
     width: 50%;
+    color: #ffffff;
     background: red;
 }
 
