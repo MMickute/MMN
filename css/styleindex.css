@@ -19,7 +19,8 @@ h1 a {
 }
 
 p {
-    margin-top: 20;
+    margin-top: 20px; 
+    margin-left: 20px;
 }
 
 /* This makes the images scale to the full width of the page */
