@@ -23,6 +23,7 @@ h1 a {
 p {
     margin-top: 20px; 
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* This makes the images scale to the full width of the page */
@@ -64,6 +65,7 @@ article {
     position: absolute;
     top: 350px;
     left: 4%;
+    width:93%;
    
 }
 
