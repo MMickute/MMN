@@ -45,9 +45,7 @@ background-color: black;
 color: white;
 }
 
-h1 a {
-    text-decoration: line-through;
-}
+
 
 p {
     margin-top: 20px; 
@@ -93,14 +91,19 @@ article {
     color: black;
     font-size: 18px;
     line-height: 25px;
+    padding-bottom: 50px;
     /*background: red;*/
+}
+
+div.image {
+    width: 70%;
+    height: auto;
+    padding-left: 20%;
 }
 
 div.caption {
     font-size: 10px;
-    width: 70%;
-    height: auto;
-    padding-left: 20%;
+    left: 5%;
 }
 
 @media screen and (max-width: 36em) {
@@ -108,7 +111,7 @@ div.caption {
 
     article {
     position: absolute;
-    top: 320px;
+    top: 410px;
     left: 4%;
     width: 93%;
 }
@@ -116,21 +119,23 @@ div.caption {
     div.caption {
     position: relative;
     font-size: 10px;
+    line-height: 14px;
     width: 70%;
     height: auto;
-    padding-left: 20%;
+    
 }
 
 nav {
     position: absolute;
-    top: 130px;
+    top: 180px;
     left: 4%;
-    width: 33%;
+    width: 50%;
     
 } 
 header {
-    padding: 0 0 50px 0;
-    font-size: 12px;
+    left:4%;
+    font-size: 14px;
+
 }
 
 }
