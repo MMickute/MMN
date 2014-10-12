@@ -7,7 +7,7 @@ body {
     }
 
 header {
-    padding: 0 0 50px 4%;
+    padding: 0 0 9px 4%;
     font-size: 22px;
 }
 
@@ -33,10 +33,6 @@ a:active {
     color: black; 
 }
 
-::-moz-selection { 
-background-color: black; 
-color: white;
-}
 
 ::selection {
 background-color: black;
@@ -75,7 +71,7 @@ nav {
     position: absolute;
     top: 200px;
     left: 4%;
-    width: 33%;
+    width: 26%;
     /*background: blue;*/
     color: black;
     font-size: 20px;
@@ -149,7 +145,9 @@ header {
     font-size: 18px;
 }
 
-}
+}  
+
+
 
 
 =======
