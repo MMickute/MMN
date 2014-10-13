@@ -2,19 +2,13 @@ body {
     background-color: white;
     color: black;
     font-size: 18px;
-    padding: 8px 16px 8px 8px;
+    padding: 8px 16px 8px 12px;
     font-family: 'Cousine' ;
     }
 
 header {
-    padding: 0 0 9px 4%;
+    padding: 0 0 0 5%;
     font-size: 22px;
-}
-
-back {
-    position: fixed;
-    right:100px;
-    margin-top:400px;
 }
 
 a:link {
@@ -45,18 +39,11 @@ background-color: black;
 color: white;
 }
 
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
 p {
     margin-top: 20px; 
     margin-left: 20px;
     margin-right: 20px;
 }
-
-
 
 /* This makes the images scale to the full width of the page */
 img {
@@ -76,9 +63,10 @@ li {
 
 
 nav {
-    position: absolute;
-    top: 200px;
-    left: 4%;
+    display: inline-block;
+    vertical-align: top;
+    top: 40%;
+    padding-left: 4%;
     width: 26%;
     /*background: blue;*/
     color: black;
@@ -88,10 +76,9 @@ nav {
 }
 
 article {
-    position: absolute;
-    display: block;
-    top: 200px;
-    left: 30%;
+    display: inline-block;
+    top: 40%;
+    left: 50%;
     width: 50%;
     color: black;
     font-size: 18px;
@@ -116,7 +103,7 @@ div.caption {
 
     article {
     position: absolute;
-    top: 430px;
+    top: 410px;
     left: 4%;
     width: 93%;
 }
@@ -145,7 +132,6 @@ header {
 
 }
 
-<<<<<<< Updated upstream
 @media print {
    
 header {
@@ -155,8 +141,3 @@ header {
 
 }  
 
-
-
-
-=======
->>>>>>> Stashed changes
