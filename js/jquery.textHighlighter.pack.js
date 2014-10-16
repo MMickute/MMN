@@ -508,7 +508,7 @@
                 .addClass(options.highlightedClass);
         },
         defaults: {
-            color: '#ffff7b',
+            color: '#FFFFFF',
             highlightedClass: 'highlighted',
             contextClass: 'highlighter-context',
             onRemoveHighlight: function() { return true; },
