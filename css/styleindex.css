@@ -11,7 +11,7 @@ header {
     font-size: 22px;
 }
 
-#top {
+#toTop {
     z-index: 100px;
     position: fixed;
     display: block;
@@ -139,6 +139,7 @@ div.caption {
 }
 
 @media print {
+    
     header {
         font-size: 10px;
     }
@@ -152,38 +153,42 @@ div.caption {
         line-height: 14px;
         left: 4%;
     }
-     .info-box {
+    
+    .info-box {
             display: none;
-        }
-        #top {
+    }
+
+    #top {
             display:none;
-        }
+    }
 }
 
 
-    @media screen {
-      .info-box {
+@media screen {
+
+    .info-box {
         margin: 30px auto;
         font-size: 12px;
           
-          
       }
-      .info-box #color-picker {
-          border: none;
-          display: inline;
+
+    .info-box #color-picker {
+        border: none;
+        display: inline;
       }
-      .info-box #color-picker div {
-          border: 1px solid #000;
-          width: 20px;
-          height: 20px;
-          display: inline-block;
-          cursor: pointer;
-          border-radius: 2px;
+
+    .info-box #color-picker div {
+        border: 1px solid #000;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 2px;
       }
-      .info-box ul li {
-          margin-top: 8px;
-      }
+
+    .info-box ul li {
+        margin-top: 8px;
     }
+}
 
   
-
