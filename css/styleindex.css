@@ -139,11 +139,43 @@ header {
 }
 
 @media print {
-   
-header {
-    padding: 0 0 50px 0;
-    font-size: 18px;
+    header {
+        padding: 0 0 50px 0;
+        font-size: 18px;
+    }
 }
 
-}  
+
+    @media screen {
+      .info-box {
+        margin: 30px auto;
+        font-size: 12px;
+          
+          
+      }
+      .info-box #color-picker {
+          border: none;
+          display: inline;
+      }
+      .info-box #color-picker div {
+          border: 1px solid #000;
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          cursor: pointer;
+          border-radius: 2px;
+      }
+      .info-box ul li {
+          margin-top: 8px;
+      }
+    }
+
+    @media print {
+        .info-box {
+            display: none;
+        }
+
+
+    }
+
 
