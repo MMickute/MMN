@@ -141,7 +141,15 @@ header {
 @media print {
     header {
         padding: 0 0 50px 0;
-        font-size: 18px;
+        font-size: 15px;
+    }
+    nav {
+        font-size:10px;
+        line-height: 14px;
+    }
+    article {
+        font-size:10px;
+        line-height: 14px;
     }
 }
 
@@ -173,6 +181,9 @@ header {
     @media print {
         .info-box {
             display: none;
+        }
+        #top {
+            display:none;
         }
 
 
