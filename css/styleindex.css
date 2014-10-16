@@ -140,17 +140,24 @@ header {
 
 @media print {
     header {
-        padding: 0 0 50px 0;
-        font-size: 15px;
+        font-size: 10px;
     }
     nav {
         font-size:10px;
         line-height: 14px;
+
     }
     article {
         font-size:10px;
         line-height: 14px;
+        left: 4%;
     }
+     .info-box {
+            display: none;
+        }
+        #top {
+            display:none;
+        }
 }
 
 
@@ -178,15 +185,5 @@ header {
       }
     }
 
-    @media print {
-        .info-box {
-            display: none;
-        }
-        #top {
-            display:none;
-        }
-
-
-    }
-
+  
 
