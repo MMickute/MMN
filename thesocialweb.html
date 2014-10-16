@@ -5,6 +5,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="http://fonts.googleapis.com/css?family=Cousine:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.textHighlighter.pack.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#sandbox').textHighlighter();
+            $('#sandbox').getHighlighter();
+           
+             $('#color-picker div.color').click(function() {
+              var color = $(this).css('background-color');
+              $('#sandbox').getHighlighter().setColor(color);
+          });
+            });
+
+        </script>
            <style>
             body { 
                 font-family: 'Cousine', serif;
@@ -25,8 +39,17 @@
                 <li><b><a href="thesocialweb.html">The Social Web</a></b></li>               
                 <li><a href="sources.html">Sources</a></li>
             </ul>
+             <div class="info-box">
+      <ul>
+        <div id="color-picker">
+            <div class="color" style="background-color: #FF6666"></div>
+            <div class="color" style="background-color: #66FF66"></div>
+            <div class="color" style="background-color: #6666FF"></div>
+          </div>
+       </ul>
+    </div>
             </nav>
-            <article>
+            <article id="sandbox">
                 <p>The World Wide Web Consortium (W3C)’s Social Web Incubator Group investigates how, through the use of web standards (such as HTML, OpenSocial or FOAF), an interoperable set of online social technologies can be developed and sustainably maintained.</p>
                 <p>Looking at another prominent adopter of “federated” terminology, the Federated Social Web W3C community group seems to have yet another conception of what it means for a network to be federated. According to the announcement of their Federated Social Web Summit in 2010, federation (in the context of social networks) is “letting people on different social networks follow each other”. The focus is in this case not so much on network architecture, but rather on data exchange: the FSW proposes that different networks adopt one unified data architecture so that a robust, heterogeneous network-of-networks can emerge. So for the FSW initiative, federation can be achieved through standardization of data formats: the precise connection between nodes and server is less relevant.</p>
                 <p>Having looked at several different ways of using these labels, where does this bring us? Apparently there’s no single agreed-upon definition of what a federated network is: there’s subtle differences between how the cited authors use this and other labels and sometimes the definitions that seem to be used even contradict each other. This is obviously a problem if one would want to discuss “federated networks” in a general sense.</p>

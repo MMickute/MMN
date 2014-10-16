@@ -5,6 +5,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="http://fonts.googleapis.com/css?family=Cousine:400,700,700italic,400italic" rel="stylesheet" type="text/css"> 
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.textHighlighter.pack.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#sandbox').textHighlighter();
+            $('#sandbox').getHighlighter();
+           
+             $('#color-picker div.color').click(function() {
+              var color = $(this).css('background-color');
+              $('#sandbox').getHighlighter().setColor(color);
+          });
+            });
+
+        </script>
            <style>
             body { 
                 font-family: 'Cousine', serif;
@@ -25,8 +39,17 @@
                 <li><a href="thesocialweb.html">The Social Web</a></li>               
                 <li><a href="sources.html">Sources</a></li>
             </ul>
+              <div class="info-box">
+      <ul>
+        <div id="color-picker">
+            <div class="color" style="background-color: #FF6666"></div>
+            <div class="color" style="background-color: #66FF66"></div>
+            <div class="color" style="background-color: #6666FF"></div>
+          </div>
+       </ul>
+    </div>
             </nav>
-            <article>
+            <article id="sandbox">
                 <p>Network: A collection of interlinked nodes that exchange information.<br>
                 Node: The most basic part of the network; for example, a user or computer.<br>
                 Link: The connection between two nodes.<br>
