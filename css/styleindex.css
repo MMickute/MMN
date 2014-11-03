@@ -101,20 +101,21 @@ div.image {
 
 div.caption {
     font-size: 10px;
-    left: 5%;
+    left: 5%; 
 }
 
 @media screen and (max-width: 36em) {
     
     header {
     left:4%;
-    font-size: 14px;
+    font-size: 13px; 
+    line-height: 34px;
 
 }
 
    nav {
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: 4%;
     width: 50%;
     
@@ -122,7 +123,7 @@ div.caption {
 
     article {
     position: absolute;
-    top: 410px;
+    top: 480px;
     left: 4%;
     width: 93%;
 }
@@ -151,7 +152,7 @@ div.caption {
     article {
         font-size:10px;
         line-height: 14px;
-        left: 4%;
+        left: 4%; 
     }
     
     .info-box {
